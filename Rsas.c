@@ -11,6 +11,9 @@ int a,n,num[100],i=0,n1=0,k,j,temp=0;
     scanf("%d",&a);
     scanf("%d",&n);
     n1=a;
+    if(a>0)
+    {
+    
     while(n1!=0)
         {
         num[i]=n1%10;
@@ -34,5 +37,11 @@ int a,n,num[100],i=0,n1=0,k,j,temp=0;
         {
         printf("%d",num[i]);
     }
+    }
+    else
+    {
+        printf("error");
+    }
+    
 return 0;
 }
